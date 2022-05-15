@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Formularz 1</title>
+    <style>
+        a
+        {
+            text-decoration: none;
+            color: rgb(159, 228, 255);
+        }
+        .header1
+        {
+            background-color: rgb(0, 181, 226);
+            text-align: left;
+            float: left;
+            width: 15%;
+            font-size: 25px;
+            font-family: "Comic Sans MS";
+            color: rgb(159, 228, 255);
+            font-weight: bold;
+            height: 100%;
+            padding: 0.25%;
+        }
+        .header2
+        {
+            border: 3px rgb(75, 194, 241);
+            background-color: rgb(75, 194, 241);
+            overflow: auto;
+            clear: both;
+            width: 100%;
+            height: fit-content;
+        }
+        .header3
+        {
+            border: 3px rgb(0, 181, 226);
+            background-color: rgb(0, 181, 226);
+            text-align: center;
+            float: right;
+            width: 8%;
+            font-size: 18px;
+            padding: 5px;
+            font-family: "Comic Sans MS";
+            color: rgb(159, 228, 255);
+            font-weight: bold;
+            margin: 7px;
+        }
+        .link
+        {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        div
+        {
+            font-family: Comic Sans MS;
+            margin: auto;
+            width: 40%;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body bgcolor="#9fe4ff">
+    <header class="header2">
+        <header class="header1">
+            Formularze
+        </header>
+        <header class="header3">
+            <a href=6.html>
+                Formularz 6
+              </a>
+        </header>
+        <header class="header3">
+            <a href=5.html>
+                Formularz 5
+              </a>
+        </header>
+        <header class="header3">
+            <a href=4.html>
+                Formularz 4
+              </a>
+        </header>
+        <header class="header3">
+            <a href=3.html>
+                Formularz 3
+              </a>
+        </header>
+        <header class="header3">
+            <a href=2.html>
+                Formularz 2
+              </a>
+        </header>
+        <header class="header3">
+            <a href=1.html>
+                Formularz 1
+              </a>
+        </header>
+    </header>
+    <div>
+	    <h1>Formularz Kontaktowy</h1>
+	    Nazwisko:
+	    <br>
+	    <input type="text" name="nazwisko" size="20" maxlength="20">
+    	<br>
+	    Imię:
+	    <br>
+	    <input type="text" name="imię" size="20" maxlength="20">
+	    <br>
+    	Wykształcenie:
+    	<br>
+    	<input type="radio" name="box" value="on">Podstawowe
+	    <br>
+	    <input type="radio" name="box" value="on">Średnie
+	    <br>
+	    <input type="radio" name="box" value="on">Wyższe
+	    <br>
+	    W jakim języku/językach programujesz?
+	    <br>
+	    <input type="checkbox" name="check" value="on">PhP
+	    <br>
+	    <input type="checkbox" name="check" value="on">JavaScript
+	    <br>
+	    <input type="checkbox" name="check" value="on">Python
+	    <br>
+	    <input type="checkbox" name="check" value="on">C++
+	    <br>
+	    <input type="checkbox" name="check" value="on">Java
+	    <br>
+	    Zgadzam się na przetwarzanie danych osobowych <input type="checkbox" name="check" value="on">.
+    	<br>
+    	Wiek:
+    	<br>
+	    <form>
+		    <select name="dropdown">
+		    	<option value="0" selected>0</option>
+			    <option value="1" selected>1</option>
+			    <option value="2" selected>2</option>
+			    <option value="3" selected>3</option>
+			    <option value="4" selected>4</option>
+			    <option value="5" selected>5</option>
+			    <option value="6" selected>6</option>
+			    <option value="7" selected>7</option>
+			    <option value="8" selected>8</option>
+			    <option value="9" selected>9</option>
+			    <option value="10" selected>10</option>
+			    <option value="11" selected>11</option>
+		    	<option value="12" selected>12</option>
+		    	<option value="13" selected>13</option>
+		    	<option value="14" selected>14</option>
+		    	<option value="15" selected>15</option>
+			    <option value="16" selected>16</option>
+			    <option value="17" selected>17</option>
+			    <option value="wybierz wiek" selected>Wybierz Wiek</option>
+	    	</select>
+    	</form>
+	    <br>
+	    Uwagi:
+    	<form>
+    		<textarea rows="5" cols="20" name="wpisz uwagi">Wpisz uwagi</textarea>
+    	</form>
+    	<br>
+    	<input type="submit" name="prześlij" value="Prześlij">
+    	<input type="reset" value="Reset">
+    </div>
+</body>
+</html>
